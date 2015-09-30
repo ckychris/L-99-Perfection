@@ -13,3 +13,7 @@ while(alive){
   return deathTime;
 ```
 ![doggy](http://bedandbiscuitspetretreat.co.uk/Dog.jpg)
+----------
+
+# Project structure
+Simple Java project directly imported to github repo.
