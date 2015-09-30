@@ -1,10 +1,10 @@
-# L-99-Perfection-
+# L-99-Perfection
 Solve Ninety-Nine Lisp problems to Perfection (My first trail git hub project!)
 [Problems website](http://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html)
 
 ----------
-
 ## Highlight solutions
+
 - none
 
 ----------
