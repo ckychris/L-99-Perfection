@@ -26,9 +26,29 @@ public class Algorithm {
     
     public ArrayList<String> last2Index2(ArrayList<String> list){
 	ArrayList<String> newList = new ArrayList<String>(2);
-	newList.add(0, list.get(list.size()-1));
-	newList.add(1, list.get(list.size()-2));
+	newList.add(list.get(list.size()-2));
+	newList.add(list.get(list.size()-1));
 	return newList;
+    }
+    
+    public ArrayList<String> reverse(ArrayList<String> list){
+	ArrayList<String> newList = new ArrayList<String>(list);
+	int mid = list.size()/2;
+	for(int i=0;i<mid;i++){
+	    String temp = newList.get(i);
+	    newList.set(i, newList.get(newList.size()-1-i));
+	    newList.set(newList.size()-1-i, temp);
+	}
+	return newList;
+    }
+    
+    public boolean palindrome(ArrayList<String> list){
+	int mid = list.size()/2;
+	for(int i=0;i<mid;i++){
+	    if(!list.get(i).equals(list.get(list.size()-1-i)))
+		return false;
+	}
+	return true;
     }
 
 }
